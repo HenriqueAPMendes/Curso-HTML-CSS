@@ -1,0 +1,109 @@
+@font-face {
+    font-family: iDroid;
+    src: url(fontes/idroid.otf);
+}
+
+:root{
+    --green0: #c5ebd6;
+    --green1: #83e1ad;
+    --green2: #3ddc84;
+    --green3: #2fa866;
+    --green4: #063d1e;
+}
+
+body{
+    background-color: var(--green1);
+    text-indent: 40px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(0, var(--green4), var(--green2));
+    color: white;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 1px 0px 4px black;
+}
+
+footer{
+    background-color: var(--green4);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#subtitle{
+    font-family: inherit;
+}
+
+h2{
+    font-family: 'iDroid', Arial, sans-serif;
+    color: var(--green4);
+}
+
+h3{
+    font-family: 'iDroid', Arial, sans-serif;
+    background-image: linear-gradient(90deg, var(--green0), white);
+    color: var(--green4);
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    background-color: var(--green4);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.extra{
+    display: block;
+    background-color: var(--green0);
+    border-radius: 10px;
+}
+
+#internal{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+#android-link{
+    color: darkblue;
+}
+
+#android-link:hover{
+    text-decoration: underline;
+}
+
+.extra > h4{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: var(--green3);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+ul{
+    list-style-type: '\2714';
+    columns: 2;
+}
